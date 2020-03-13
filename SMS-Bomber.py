@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests, random, datetime, sys, time, argparse, os , colorama
 from colorama import Fore, Back, Style
 from colorama import init
