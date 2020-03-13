@@ -11,6 +11,11 @@
 
 После скачивания откройте папку Bomber-300 и запустите файл SMS-Bomber.exe
 
+-
+-
+-
+-
+
 
 
 
@@ -40,6 +45,10 @@
 
 1 cd SMS-Bomber-300-Free
 2 python SMS-Bomber.py
+-
+-
+-
+-
 
 
 УСТАНОВКА НА LINUX
