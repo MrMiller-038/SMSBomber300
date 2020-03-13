@@ -50,6 +50,7 @@
 1 cd SMS-Bomber-300-Free
 
 2 python SMS-Bomber.py
+
 -
 -
 -
@@ -57,6 +58,7 @@
 
 
 УСТАНОВКА НА LINUX
+
 1 git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
 
 2 ls
