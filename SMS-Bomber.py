@@ -24,7 +24,7 @@ banner = """
 
 print(banner)
 print(Fore.GREEN)
-print("\n Что бы отключить программу нажмите Cntr + C ")
+print("\n Что бы отключить программу нажмите Ctrl + C ")
 print(Fore.BLUE)
 _phone = input('\n Введи номер (Без +)>> ')
 
