@@ -14,6 +14,7 @@
 -
 -
 УСТАНОВКА НА WINDOWS
+-
 
 ПЕРЕД СКАЧИВАНИЕ ОТКЛЮЧИТЕ АНТИВИРУС !
 
@@ -34,6 +35,7 @@
 
 
 УСТАНОВКА НА TERMUX
+-
 
 1 apt update
 
@@ -66,6 +68,7 @@
 
 
 УСТАНОВКА НА LINUX
+-
 
 1 git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
 
