@@ -8,12 +8,11 @@
 Мой ВК -- https://vk.com/hack9999999999999999999999999989
 
 Ютуб кнал -- https://www.youtube.com/channel/UCTftz8MsYtAE80D9Vrd20rQ?view_as=subscriber
+
 ЖДИТЕ ОБНОВЛЕНИЯ 8.0
 
-
 -
 -
-
 УСТАНОВКА НА WINDOWS
 
 ПЕРЕД СКАЧИВАНИЕ ОТКЛЮЧИТЕ АНТИВИРУС !
