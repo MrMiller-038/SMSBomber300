@@ -9,8 +9,9 @@ import sys
 import time 
 import argparse 
 import os
-import colorama
 import requests
+
+
 from colorama import Fore, Back, Style
 from colorama import init
 init()
