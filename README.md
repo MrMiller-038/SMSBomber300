@@ -15,7 +15,7 @@ Update Version 8.0 !!
 -
 -
 -
-##УСТАНОВКА НА WINDOWS
+УСТАНОВКА НА WINDOWS
 -
 
 ПЕРЕД СКАЧИВАНИЕ ОТКЛЮЧИТЕ АНТИВИРУС !
@@ -36,7 +36,7 @@ Update Version 8.0 !!
 
 
 
-###УСТАНОВКА НА TERMUX
+УСТАНОВКА НА TERMUX
 -
 
 1 apt update
@@ -59,7 +59,7 @@ Update Version 8.0 !!
 
 10 ls
 
-11 python SMS-Bomber.py
+##11 python SMS-Bomber.py
 
 [Последующие запуски]
 
