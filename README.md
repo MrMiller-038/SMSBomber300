@@ -44,17 +44,21 @@ Update Version 8.0 !!
 
 3 pkg install python
 
-4 pkg install git
+4 pip install requests
 
-5 git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
+5 pip install colorama
 
-6 ls
+6 pkg install git
 
-7 cd SMS-Bomber-300-Free
+7 git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
 
 8 ls
 
-9 python SMS-Bomber.py
+9 cd SMS-Bomber-300-Free
+
+10 ls
+
+11 python SMS-Bomber.py
 
 [Последующие запуски]
 
