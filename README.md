@@ -59,7 +59,7 @@ Update Version 8.0 !!
 
 10 ls
 
-##11 python SMS-Bomber.py
+11 python SMS-Bomber.py
 
 [Последующие запуски]
 
