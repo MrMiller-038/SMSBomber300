@@ -4,6 +4,13 @@ Update Version 8.0 !!
 -
 -
 
+![alt text](example.com/logo.png)
+
+![alt text](figures/img.png) 
+
+
+
+
 Разработчик не несет ответственности за ваши действия !
 
 Мой ВК -- https://vk.com/hack9999999999999999999999999989
