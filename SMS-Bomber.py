@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#   Version 8.0
 
 import os
 import time
@@ -10,7 +9,7 @@ import time
 import argparse 
 import os
 import requests
-
+import colorama
 
 from colorama import Fore, Back, Style
 from colorama import init
