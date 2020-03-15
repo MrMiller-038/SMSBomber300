@@ -3,14 +3,7 @@ Update Version 8.0 !!
 🆂🅼🆂-🅱🅾🅼🅱🅴🆁-300 🅵🆁🅴🅴
 -
 -
-
-![alt text](https://yandex.ru/images/search?pos=0&from=tabbar&img_url=https%3A%2F%2Fimg2.akspic.ru%2Fimage%2F146213-tigr-hishhnik-zivotnoe-bengalskij_tigr-bakenbardy-3840x2160.jpg&text=%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0&rpt=simage
-)
-
-![alt text](figures/img.png) 
-
-
-
+ 
 
 Разработчик не несет ответственности за ваши действия !
 
