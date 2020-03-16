@@ -87,4 +87,4 @@ Update Version 8.0 !!
 
 4 ls
 
-5 python SMS-Bomber.py
+5 python3 SMS-Bomber.py
