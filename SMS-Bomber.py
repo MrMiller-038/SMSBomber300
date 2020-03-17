@@ -36,7 +36,7 @@ banner = """
 
 print(banner)
 print(Fore.GREEN)
-print("\n ЧТо вЫйти из прОграМмы нАжмиТе Ctrl + C иЛи на КРЕСТИК в пРавоМ верХнем угЛу.")
+print("\n ЧТо бы вЫйти из прОграМмы нАжмиТе Ctrl + C иЛи на КРЕСТИК в пРавоМ верХнем угЛу.")
 print(Fore.RED)
 _phone = input('\n ВвEди ноMер (Без +): ')
 
