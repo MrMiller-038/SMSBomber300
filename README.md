@@ -42,27 +42,21 @@ Update Version 8.0 !!
 УСТАНОВКА НА TERMUX
 -
 
-1 apt update
+1 apt update && apt upgrade
 
-2 apt upgrade
+2 pkg install python git
+ 
+3 pip install requests colorama
 
-3 pkg install python
+4 git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
 
-4 pip install requests
+5 ls
 
-5 pip install colorama
+6 cd SMS-Bomber-300-Free
 
-6 pkg install git
+7 ls
 
-7 git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
-
-8 ls
-
-9 cd SMS-Bomber-300-Free
-
-10 ls
-
-11 python SMS-Bomber.py
+8 python SMS-Bomber.py
 
 [Последующие запуски]
 
