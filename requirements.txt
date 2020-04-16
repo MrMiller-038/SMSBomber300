@@ -1,2 +1,8 @@
-
- requests, random, datetime, sys, time, argparse, os , colorama
+random 
+colorama==0.4.1
+requests==2.23.0
+datetime
+sys
+time
+argparse
+os 
