@@ -50,7 +50,7 @@
 
 2 pkg install python git
  
-3 pip install requirements.txt
+3 pip install -r requirements.txt
 
 4 git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
 
