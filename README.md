@@ -1,4 +1,4 @@
-# Update Version 9.5 !!
+# Update Version 9.7 !!
 Были исправлены: Вылеты , баги , добавлено больше сервисов , Убраны звонки в режиме "Только SMS"
 
 
@@ -50,7 +50,7 @@
 
 2 pkg install python git
  
-3 pip install requests colorama
+3 pip install requirements
 
 4 git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
 
