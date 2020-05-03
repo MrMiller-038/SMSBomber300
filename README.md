@@ -3,7 +3,6 @@
     Открытый и бесплатный СМС бомбер
     <br /><br />
     <img alt="Made with Python" src="https://img.shields.io/badge/Made%20with-Python-%23FFD242?logo=python&logoColor=white">
-    <img alt="Downloads" src="https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free.git"
     <img alt="Code style: Yellow" src="https://img.shields.io/badge/code%20style-black-000000.svg">
 </p>
 
@@ -19,30 +18,34 @@
 
  <h3>Для Android</h3>
 
-   Установите приложение [Termux](https://play.google.com/store/apps/details?id=com.termux), запустите его и введите следующие команды поочерёдно:
-    `
-   apt update && apt upgrade
+Установите приложение [Termux](https://play.google.com/store/apps/details?id=com.termux), запустите его и введите следующие команды поочерёдно:
+   ```sh
+apt update && apt upgrade
 
-   pkg install python git
+ pkg install python git
  
-   pip install -r requirements.txt
+ pip install -r requirements.txt
 
-   git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
+ git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
 
-   ls
+ ls
 
-   cd SMS-Bomber-300-Free
+ cd SMS-Bomber-300-Free
 
-   ls
+ ls
 
-   python SMS-Bomber.py
+ python SMS-Bomber.py
 
- [Последующие запуски]
+[Последующие запуски]
 
-   cd SMS-Bomber-300-Free
+ cd SMS-Bomber-300-Free
 
-   python SMS-Bomber.py
-    `
+ python SMS-Bomber.py
+
+
+ ```  
+
+    
 ## УСТАНОВКА НА LINUX
  ```sh
 
