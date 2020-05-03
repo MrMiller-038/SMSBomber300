@@ -12,7 +12,7 @@
 
    ПЕРЕД СКАЧИВАНИЕМ ОТКЛЮЧИТЕ АНТИВИРУС !
 
-   Скачать -- https://yadi.sk/d/QJZjO0sQV40IZw 
+   Скачать - [SMSBomber300](https://yadi.sk/d/QJZjO0sQV40IZw)
 
    После скачивания откройте папку Bomber-300 и запустите файл SMS-Bomber.exe
 
@@ -77,21 +77,21 @@ apt update && apt upgrade
 Смотреть [Wiki](https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free/wiki).
 
 ## 📝 Наши контакты 
-   Разработчики:
+Разработчики:
    
-Создатель проекта - Иван Зайцев - https://vk.com/ivan_vzlom300    
+Создатель проекта - Иван Зайцев - [Зайти](https://vk.com/ivan_vzlom300)    
       
 Визуальные эффекты:
       
-Дима Чернышев - https://vk.com/psih.odinochka
+Дима Чернышев - [Зайти](https://vk.com/psih.odinochka)
 
-Павел Дуровский - https://vk.com/shotfly_tlab
+Павел Дуровский - [Зайти](https://vk.com/shotfly_tlab)
 
-##Подпишись !
+## Подпишись !
 
-Ютуб - https://www.youtube.com/channel/UCTftz8MsYtAE80D9Vrd20rQ?view_as=subscriber
+Ютуб - [Подписаться](https://www.youtube.com/channel/UCTftz8MsYtAE80D9Vrd20rQ?view_as=subscriber)
 
-Группа в ВК - https://vk.com/termux100
+Группа в ВК - [Подписаться](https://vk.com/termux100)
 
 
 
