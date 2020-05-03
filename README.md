@@ -1,5 +1,4 @@
-<h1 align="center">SmS-BomBer-300</h1>
-<h1 align="center">V. 9.7</h1>
+<h1 align="center"> SmS-BomBer-300 V. 9.7 </h1>
 <h1 align="center">Добро пожаловать в Bomber300 👋</h1>
 <p align="center">
     Открытый и бесплатный СМС бомбер
