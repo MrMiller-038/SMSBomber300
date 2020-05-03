@@ -20,7 +20,7 @@
  <h3>Для Android</h3>
 
    Установите приложение [Termux](https://play.google.com/store/apps/details?id=com.termux), запустите его и введите следующие команды поочерёдно:
-    ```sh
+    `
    apt update && apt upgrade
 
    pkg install python git
@@ -42,7 +42,7 @@
    cd SMS-Bomber-300-Free
 
    python SMS-Bomber.py
-    ```sh
+    `
 ## УСТАНОВКА НА LINUX
  ```sh
 
@@ -74,10 +74,11 @@
 Смотреть [Wiki](https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free/wiki).
 
 ## 📝 Наши контакты 
-        Разработчики:
+   Разработчики:
 Создатель проекта - Иван Зайцев - https://vk.com/ivan_vzlom300
         Визуальные эффекты:
 Дима Чернышев - https://vk.com/psih.odinochka
+
 Павел Дуровский - https://vk.com/shotfly_tlab
   
 
