@@ -83,7 +83,7 @@ apt update && apt upgrade
       
 Визуальные эффекты:
       
-Дима Чернышев - [Зайти](https://vk.com/psih.odinochka)
+Дима Чернышов - [Зайти](https://vk.com/psih.odinochka)
 
 Павел Дуровский - [Зайти](https://vk.com/shotfly_tlab)
 
