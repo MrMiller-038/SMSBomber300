@@ -1,4 +1,4 @@
-<h1 align="center"> SmS-BomBer-300 V. 9.7 </h1>
+<h1 align="center"> 🆂🅼🆂-🅱🅾🅼🅱🅴🆁-300 🅵🆁🅴🅴 V. 9.7 </h1>
 <h1 align="center">Добро пожаловать в Bomber300 👋</h1>
 <p align="center">
     Открытый и бесплатный СМС бомбер
@@ -6,6 +6,11 @@
     <img alt="Made with Python" src="https://img.shields.io/badge/Made%20with-Python-%23FFD242?logo=python&logoColor=white">
     <img alt="Code style: Yellow" src="https://img.shields.io/badge/code%20style-black-000000.svg">
 </p>
+## Что нового в обновлении ?
+- Убраны звонки в режиме "Только SMS"
+- Было добавлено больше сервисов для SMS
+- Исправлены вылеты , баги и ошибки в интерфейсе  
+
 
 ## 🚀 Установка
 
