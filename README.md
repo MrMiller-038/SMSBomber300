@@ -81,14 +81,16 @@ apt update && apt upgrade
    
 Создатель проекта - Иван Зайцев - https://vk.com/ivan_vzlom300    
       
-      Визуальные эффекты:
+Визуальные эффекты:
       
 Дима Чернышев - https://vk.com/psih.odinochka
 
 Павел Дуровский - https://vk.com/shotfly_tlab
-  
+
+##Подпишись !
 
 Ютуб - https://www.youtube.com/channel/UCTftz8MsYtAE80D9Vrd20rQ?view_as=subscriber
+
 Группа в ВК - https://vk.com/termux100
 
 
