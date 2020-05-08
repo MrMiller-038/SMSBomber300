@@ -1,4 +1,4 @@
-<h1 align="center"> 🆂🅼🆂-🅱🅾🅼🅱🅴🆁-300 🅵🆁🅴🅴 V. 9.7 </h1>
+<h1 align="center"> 🆂🅼🆂-🅱🅾🅼🅱🅴🆁-300 🅵🆁🅴🅴 V. 10.1 </h1>
 <h1 align="center">Добро пожаловать в Bomber300 👋</h1>
 <p align="center">
     Открытый и бесплатный СМС бомбер
@@ -10,7 +10,17 @@
 ## Что нового в обновлении ?
 - Убраны звонки в режиме "Только SMS"
 - Было добавлено больше сервисов для SMS
-- Исправлены вылеты , баги и ошибки в интерфейсе  
+- Исправлены вылеты , баги и ошибки в интерфейсе 
+- Новый интерфейс как для Андройд и Windows , Linux
+- Глобальное обновление 
+- Добавлены настройки 
+- Добавлен Баннер 
+
+
+
+![image](https://user-images.githubusercontent.com/62137835/81407127-8c3f0c80-9143-11ea-9605-7ce1953c64a3.png)
+![image](https://user-images.githubusercontent.com/62137835/81408459-f48eed80-9145-11ea-8abd-e99661f00660.png)
+
 
 
 
@@ -105,7 +115,7 @@ apt update && apt upgrade
 
 Ютуб - [Подписаться](https://www.youtube.com/channel/UCTftz8MsYtAE80D9Vrd20rQ?view_as=subscriber)
 
-Группа в ВК - [Подписаться](https://vk.com/termux100)
+Группа в ВК - [Подписаться](https://vk.com/auth.aspx)
 
 
 
