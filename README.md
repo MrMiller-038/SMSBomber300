@@ -115,7 +115,7 @@ apt update && apt upgrade
 
 Ютуб - [Подписаться](https://www.youtube.com/channel/UCTftz8MsYtAE80D9Vrd20rQ?view_as=subscriber)
 
-Группа в ВК - [Подписаться](https://vk.com/auth.aspx)
+Группа в ВК - [Подписаться](https://vk.com/invite/lzjisnz)
 
 
 
