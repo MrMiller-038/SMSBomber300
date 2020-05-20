@@ -38,13 +38,13 @@
 
 Установите приложение [Termux](https://play.google.com/store/apps/details?id=com.termux), запустите его и введите следующие команды поочерёдно:
    ```sh
-apt update && apt upgrade
+ apt update && apt upgrade
 
  pkg install python git
- 
- pip install -r requirements.txt
 
  git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
+ 
+ pip install -r requirements.txt
 
  ls
 
