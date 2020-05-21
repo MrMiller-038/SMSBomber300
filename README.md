@@ -44,7 +44,6 @@
 
  git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
  
- pip install -r requirements.txt
 
  ls
 
@@ -52,13 +51,15 @@
 
  ls
 
- python SMS-Bomber.py
+ pip install -r requirements.txt
+
+ python SMSBomber300.py
 
 [Последующие запуски]
 
  cd SMS-Bomber-300-Free
 
- python SMS-Bomber.py
+ python SMSBomber300.py
 
 
  ```  
@@ -75,13 +76,13 @@
 
  ls
 
- python3 SMS-Bomber.py
+ python3 SMSBomber300.py
  ```
 
 
 ## 🚩 Запуск
 
-Всё просто! Введите команду `python SMS-Bomber.py` или `python3 SMS-Bomber.py` и интерфейс бомбера будет запущен. 
+Всё просто! Введите команду `python SMSBomber300.py` или `python3 SMSBomber300.py` и интерфейс бомбера будет запущен. 
 
 ## ❌ Устранение проблем
 Если у вас возникли проблемы с Bomber300, сначала выполните следующие базовые действия:
