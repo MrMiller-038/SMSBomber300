@@ -34,7 +34,7 @@
 
    После скачивания откройте папку Bomber-300 и запустите файл SMS-Bomber.exe
 
- <h3>Для Android</h3>
+ <h3>Для Android(Termux)</h3>
 
 Установите приложение [Termux](https://play.google.com/store/apps/details?id=com.termux), запустите его и введите следующие команды поочерёдно:
    ```sh
