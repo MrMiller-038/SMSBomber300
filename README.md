@@ -47,7 +47,7 @@
 
  ls
 
- cd SMS-Bomber-300-Free
+ cd SMSBomber300
 
  ls
 
@@ -57,7 +57,7 @@
 
 [Последующие запуски]
 
- cd SMS-Bomber-300-Free
+ cd SMSBomber300
 
  python SMSBomber300.py
 
@@ -72,7 +72,7 @@
 
  ls
 
- cd SMS-Bomber-300-Free
+ cd SMSBomber300
 
  ls
 
