@@ -118,5 +118,7 @@
 
 Группа в ВК - [Подписаться](https://vk.com/invite/lzjisnz)
 
+Чат в ВК - [Написать](https://vk.me/join/AJQ1dyAD2RfiLmpN0GyH3KmJ)
+
 
 
