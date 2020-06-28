@@ -43,7 +43,7 @@
 
  pkg install python git
 
- git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
+ git clone https://github.com/Ivan-Hacker-700/SMSBomber300
  
 
  ls
@@ -69,7 +69,7 @@
 ## УСТАНОВКА НА LINUX
  ```sh
 
- git clone https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free
+ git clone https://github.com/Ivan-Hacker-700/SMSBomber300
 
  ls
 
@@ -100,7 +100,7 @@
 
 ## 💻 Расширенное использование
 
-Смотреть [Wiki](https://github.com/Ivan-Hacker-700/SMS-Bomber-300-Free/wiki).
+Смотреть [Wiki](https://github.com/Ivan-Hacker-700/SMSBomber300/wiki).
 
 ## 📝 Наши контакты 
 Разработчики:
