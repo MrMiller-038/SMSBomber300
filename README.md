@@ -119,7 +119,7 @@
 
 Ютуб - [Подписаться](https://www.youtube.com/channel/UCTftz8MsYtAE80D9Vrd20rQ?view_as=subscriber)
 
-Группа в ВК - [Подписаться](https://vk.com/invite/lzjisnz)
+Группа в ВК - [Подписаться]()
 
 Чат в ВК - [Написать](https://vk.me/join/AJQ1dyAD2RfiLmpN0GyH3KmJ)
 
