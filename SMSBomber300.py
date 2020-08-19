@@ -64,7 +64,7 @@ if E == str(1):
     p = input("\n [>>] ")
     
     if p == str(1):
-        kol2 =  input("\n Хорошо введите время не меньше 20 секунд !>> ")
+        kol2 =  input("\n Хорошо введите время не больше 20 секунд !>> ")
         for char in message1:
             sys.stdout.write(char)
             sys.stdout.flush()
