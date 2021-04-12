@@ -1,9 +1,5 @@
 
 
-<div style='background-color: #fff;'>
-	Ghbdtn
-</div>
-
 <h1 align="center"> 🆂🅼🆂-🅱🅾🅼🅱🅴🆁-300 🅵🆁🅴🅴 </h1>
 <h1 align="center">Идет обановление !</h1>
 
