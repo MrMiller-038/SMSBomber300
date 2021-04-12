@@ -1,8 +1,6 @@
-<head>
-	<link rel="stylesheet" href="style.css">
-</head>
 
-<div class="test">
+
+<div style='background-color: #fff;'>
 	Ghbdtn
 </div>
 
