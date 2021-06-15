@@ -12,8 +12,10 @@ os.system("title SMS-Bomber-300-Free")
 version = '12.1'
 
 #Баннер cпамера
+#check_update()
 OSystem()
+start()
+
 
 _name = ''
 
-start()

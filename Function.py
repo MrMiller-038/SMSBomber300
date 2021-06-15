@@ -1,11 +1,13 @@
 import requests, random, datetime, sys, time, argparse, os , colorama ,pickle
 from Banners import banner1an, banner2an, banner3, banner4
+import fake_useragent
 from fake_useragent import UserAgent
-from ServesSMS import *
+from ServesSMS import _sms
 from Message import *
 import smtplib as root
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from colorama import *
 
 oso = os.name
 user_war = 15
@@ -14,10 +16,129 @@ user_instruct = '0'
 version = '12.1'
 
 
-def instruction():
-	global user_instruct
-	user_instruct += '5'
+def menu_atack():
+	check_os()
+	effect(message20)
 
+	user_input = input('\n        [\033[32m>>\033[33m] ')
+
+	if user_input == '1':
+		send_sms()
+
+	if user_input == '0':
+		start()
+
+	if user_input == '2':
+		pass
+
+	if user_input == '3':
+		pass
+
+	else:
+		print('        [\033[31mx\033[33m] Пожалуйста введите нужный режим!')
+		time.sleep(1)
+		menu_atack()
+
+
+def send_sms():
+	check_os()
+	phone = input('\n        Введите Российский номер для атаки с [\033[32m+7\033[33m]! \n\n        [\033[32m>>\033[33m] ')
+	
+	phone_check = phone.replace("+","")
+	num_kol = len(phone_check)
+
+	if num_kol == 11:
+		time.sleep(1)
+		_sms(phone_check)
+	else:
+		print('\n        [\033[31m!\033[33m] Пожалуйста проверьте валидность номера! \n        [\033[31m!\033[33m] Введите Российский номер!')
+		time.sleep(3)
+		sms_send()
+
+
+def instruction():
+
+	check_os()
+	effect(message_instruct)
+
+	user_input = input('\n        Для выхода напишите [\033[31m0\033[33m] \n\n        [\033[32m>>\033[33m] ')
+
+	if user_input == '0':
+		start()
+
+
+def check_update():
+    print(Fore.YELLOW)
+    global version
+    effect(message15)
+
+    updat=requests.get('https://raw.githubusercontent.com/Ivan-Zaitsev/SMSBomber300/master/version.data')
+    upd_vers = float(updat.text[0:6])
+    
+    if updat_vers > float(version):
+        print("\n        [\033[32m!\033[33m] Найдено обновление\n" + updat.text[0:6] + "\n        [\033[32m+\033[33m] Изменения:\n" + updat.text[7:])
+        print("\n        [\033[32m!\033[33m] Начато обновление, пожалуйста подождите!")
+        
+        up_boom = requests.get('https://raw.githubusercontent.com/Ivan-Zaitsev/SMSBomber300/master/SMSBomber300.py')
+        f = open("SMSBomber300.py", "wb")
+        f.write(up_boom.content)
+        f.close()
+        print('\n        [\033[32m+\033[33m] Файл SMSBomber300.py обновлен!')
+        time.sleep(1)
+
+        up_function = requests.get('https://raw.githubusercontent.com/Ivan-Zaitsev/SMSBomber300/master/Function.py')
+        f2 = open("Function.py", "wb")
+        f2.write(up_function.content)
+        f2.close()
+        print('\n        [\033[32m+\033[33m] Файл Function.py обновлен!')
+        time.sleep(1)
+
+
+        up_banners = requests.get('https://raw.githubusercontent.com/Ivan-Zaitsev/SMSBomber300/master/Banners.py')
+        f3 = open("Banners.py", "wb")
+        f3.write(up_banners.content)
+        f3.close()
+        print('\n        [\033[32m+\033[33m] Файл Banners.py обновлен!')
+        time.sleep(1)
+
+
+        up_message = requests.get('https://raw.githubusercontent.com/Ivan-Zaitsev/SMSBomber300/master/Message.py')
+        f4 = open("Message.py", "wb")
+        f4.write(up_message.content)
+        f4.close()
+        print('\n        [\033[32m+\033[33m] Файл Message.py обновлен!')
+        time.sleep(1)
+
+
+        up_servissms = requests.get('https://raw.githubusercontent.com/Ivan-Zaitsev/SMSBomber300/master/ServesSMS.py')
+        f5 = open("ServesSMS.py", "wb")
+        f5.write(up_servissms.content)
+        f5.close()
+        print('\n        [\033[32m+\033[33m] Файл ServesSMS.py обновлен!')
+        time.sleep(1)
+
+
+        up_serviscall = requests.get('https://raw.githubusercontent.com/Ivan-Zaitsev/SMSBomber300/master/Servis-Call.py')
+        f6 = open("Servis-Call.py", "wb")
+        f6.write(up_serviscall.content)
+        f6.close()
+        print('\n        [\033[32m+\033[33m] Файл Servis-Call.py обновлен!')
+        time.sleep(1)
+
+        
+        print("\n        [\033[32m!\033[33m] Обновление завершено, откройте бомбер заново командой 'python SMSBomber300.py' [\033[32m!\033[33m]")
+        time.sleep(1)
+        sys.exit()
+    
+    elif upd_vers == float(version):
+    	print("\n        [\033[32m!\033[33m] Установлена последняя версия, спасибо!")
+    
+    elif upd_vers < float(version):
+    	print("\n        [\033[32m!\033[33m] Ты молодец, пиши мне в вк!")
+    	sys.exit()
+    
+    else:
+    	print("\n        [\033[31mx\033[33m] Ошибка, файл обновлений не найден!  \n        Попробуйте заново или проверьте подключение к интернету.")
 
 
 
@@ -44,8 +165,8 @@ def check_ins():
 def us_input():
 	check_ins()
 	user_input = input('\n        [\033[32m>>\033[33m] ')
-	if user_input == str(1):
-	    print('Тут ваня умник не до делал')
+	if user_input == '1':
+	    menu_atack()
 	if user_input == '2':
 	    create_server()
 	    probiv_user()
@@ -56,6 +177,7 @@ def us_input():
 	if user_input == '5':
 		send_mail()
 	if user_input == '6':
+		user_instruct += '5'
 		instruction()
 	if user_input == '0':
 		sys.exit()
@@ -96,8 +218,9 @@ def start():
 	check_ins()
 	effect(message)
 	user_input = input('\n        [\033[32m>>\033[33m] ')
-	if user_input == str(1):
-	    print('Тут ваня умник не до делал')
+
+	if user_input == '1':
+	    menu_atack()
 	if user_input == '2':
 	    create_server()
 	    probiv_user()
@@ -108,6 +231,7 @@ def start():
 	if user_input == '5':
 		send_mail()
 	if user_input == '6':
+		user_instruct += '5'
 		instruction()
 	if user_input == '0':
 		sys.exit()
@@ -253,12 +377,13 @@ def create_server():
 
 def probiv_user():
 	check_os()
-	phone_number = input('\n        Введите номер для поиска информации ! \n\n        [\033[32m>>\033[33m] ')
-	num_kol = len(phone_number)
+	phone_number = input('\n        Введите номер для поиска информации с [\033[32m+7\033[33m]! \n\n        [\033[32m>>\033[33m] ')
+	phone_number_check = phone_number.replace("+","")
+	num_kol = len(phone_number_check)
 
 	try:
 		if num_kol == 11:
-			print('        \nПожалуйста подождите [\033[32m3 сек.\033[33m]!')
+			print('\n        Пожалуйста подождите [\033[32m3 сек.\033[33m]!')
 			time.sleep(3)
 
 			proxy_url = f'https://{SERVER}.proxysite.com/includes/process.php?action=update'
@@ -323,6 +448,6 @@ def probiv_user():
 				start()
 
 		else:
-			print('    [\033[31mx\033[33m] Введите Российский номер из 11 символов ! ')
+			print('        [\033[31mx\033[33m] Введите Российский номер из 11 символов ! ')
 	except:
-		print('    [\033[31mx\033[33m] Введите Российский номер из 11 символов ! ')
+		print('        [\033[31mx\033[33m] Введите Российский номер из 11 символов ! ')
