@@ -1,0 +1,9 @@
+
+colorama==0.4.4
+fake-useragent==0.1.11
+PySocks==1.7.1
+requests==2.25.1
+threading==4.1.0
+secure-smtplib==0.1.1
+
+
