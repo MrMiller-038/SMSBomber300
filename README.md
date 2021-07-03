@@ -56,7 +56,7 @@
 
 4. Пропишите - apt upgrade
 
-<img src="https://gpvc.arturio.dev/Ivan-Zaitsev/SMSBomber300" align="center" width=200 height=30  />
+<img src="https://gpvc.arturio.dev/SMSBomber300" align="center" width=200 height=30  />
 
 Группа в ВК - [Подписаться](https://vk.com/hackerpro300)
 Чат в ВК - [Написать](https://vk.me/join/AJQ1dyAD2RfiLmpN0GyH3KmJ)
