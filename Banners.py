@@ -4,7 +4,7 @@ from colorama import Fore, Back, Style
 from colorama import init
 init()
 kol2 = 5
-version = '12.1'
+version = 'Бета'
 
 def banner3():
   print(Fore.YELLOW)

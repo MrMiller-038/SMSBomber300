@@ -8,8 +8,8 @@ from Message import *
 from Function import *
 init()
 
-os.system("title SMS-Bomber-300-Free")
-version = '12.1'
+os.system("title SMS-Bomber-300")
+version = 'Бета'
 
 #Баннер cпамера
 #check_update()

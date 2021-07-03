@@ -1,6 +1,7 @@
 import requests, random, datetime, sys, time, argparse, os , colorama ,pickle
 from Banners import banner1an, banner2an, banner3, banner4
 import fake_useragent
+from threading import Thread
 from fake_useragent import UserAgent
 from ServesSMS import _sms
 from Message import *
@@ -13,7 +14,7 @@ oso = os.name
 user_war = 15
 _phones = []
 user_instruct = '0'
-version = '12.1'
+version = 'Бета'
 
 
 def menu_atack():
@@ -47,9 +48,14 @@ def send_sms():
 	phone_check = phone.replace("+","")
 	num_kol = len(phone_check)
 
+
 	if num_kol == 11:
 		time.sleep(1)
 		_sms(phone_check)
+		#_thread1 = Thread(target=_sms, args=(phone_check))
+		#_thread1.start()
+		#_thread1.join()
+		
 	else:
 		print('\n        [\033[31m!\033[33m] Пожалуйста проверьте валидность номера! \n        [\033[31m!\033[33m] Введите Российский номер!')
 		time.sleep(3)
