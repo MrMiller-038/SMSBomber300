@@ -14,7 +14,7 @@ oso = os.name
 user_war = 15
 _phones = []
 user_instruct = '0'
-version = 'Бета'
+version = '12.1'
 
 
 def menu_atack():
@@ -79,7 +79,7 @@ def check_update():
     effect(message15)
 
     updat=requests.get('https://raw.githubusercontent.com/Ivan-Zaitsev/SMSBomber300/master/version.data')
-    upd_vers = float(updat.text[0:6])
+    updat_vers = float(updat.text[0:6])
     
     if updat_vers > float(version):
         print("\n        [\033[32m!\033[33m] Найдено обновление\n" + updat.text[0:6] + "\n        [\033[32m+\033[33m] Изменения:\n" + updat.text[7:])
