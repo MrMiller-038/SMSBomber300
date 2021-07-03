@@ -14,8 +14,7 @@ version = 'Бета'
 #Баннер cпамера
 #check_update()
 OSystem()
-start()
+check_update()
 
 
-_name = ''
 
