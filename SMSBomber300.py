@@ -12,9 +12,8 @@ os.system("title SMS-Bomber-300")
 version = 'Бета'
 
 #Баннер cпамера
-#check_update()
-OSystem()
 check_update()
+
 
 
 
