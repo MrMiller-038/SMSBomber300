@@ -13,6 +13,9 @@ version = 'Бета'
 
 #Баннер cпамера
 check_update()
+time.sleep(1.8)
+OSystem()
+start()
 
 
 
