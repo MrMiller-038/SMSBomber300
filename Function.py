@@ -136,10 +136,10 @@ def check_update():
         time.sleep(1)
         sys.exit()
     
-    elif upd_vers == float(version):
+    elif updat_vers == float(version):
     	print("\n        [\033[32m!\033[33m] Установлена последняя версия, спасибо!")
     
-    elif upd_vers < float(version):
+    elif updat_vers < float(version):
     	print("\n        [\033[32m!\033[33m] Ты молодец, пиши мне в вк!")
     	sys.exit()
     
