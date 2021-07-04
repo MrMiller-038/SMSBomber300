@@ -14,7 +14,7 @@ oso = os.name
 user_war = 15
 _phones = []
 user_instruct = '0'
-version = '12.1.0.5'
+version = '12.1'
 
 
 def menu_atack():
