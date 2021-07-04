@@ -1,9 +1,10 @@
-
+certifi==2021.5.30
+chardet==4.0.0
 colorama==0.4.4
 fake-useragent==0.1.11
+idna==2.10
 PySocks==1.7.1
 requests==2.25.1
-threading==4.1.0
 secure-smtplib==0.1.1
-
-
+thread6==0.2.0
+urllib3==1.26.6
